@@ -1,13 +1,8 @@
-# Ignore big files
+# Ignore videos everywhere except inside data/
 *.mp4
 *.avi
 *.mkv
-*.pt
-*.h5
-*.weights
-
-# Ignore temp files
-__pycache__/
-*.log
-*.DS_Store
+!data/*.mp4
+!data/*.avi
+!data/*.mkv
 
